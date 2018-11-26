@@ -74,13 +74,15 @@ MY_APPS = [
 
 # 第三方的APP
 EXT_APPS = [
-    'rest_framework'
+    'rest_framework',
+    'corsheaders',
 ]
 INSTALLED_APPS = SYSTEM_APPS + MY_APPS + EXT_APPS
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -248,3 +250,6 @@ CACHES = {
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
 SESSION_CACHE_ALIAS = "session"
 # =====================缓存配置end=====================
+
+# 跨域请求
+CORS_ORIGIN_ALLOW_ALL = True

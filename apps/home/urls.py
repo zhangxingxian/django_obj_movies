@@ -1,7 +1,10 @@
 from django.conf.urls import url
 
-from home import views
+from apps.home import views
+
 
 urlpatterns = [
-    url('^index', views.index, name='index')
+    # url('^index/', views.index, name='index'),
+    url('^film/', views.TFilmView.as_view()),
+    url('^cate/', views.TCateView.as_view()),
 ]

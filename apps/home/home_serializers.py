@@ -1,7 +1,7 @@
 # 核心功能: 是将模型转化Json数据
 
 from rest_framework import serializers
-from home.models import TFilm, TCateLog
+from apps.home.models import TFilm, TCateLog
 
 
 class TFilmSerializer(serializers.ModelSerializer):

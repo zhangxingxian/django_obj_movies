@@ -1,7 +1,7 @@
 from django.http import JsonResponse
 from rest_framework import status
 
-STATUS_LOGIN_CODE = 1
+STATUS_LOGIN_CODE = 200
 MSG_SUCCESS_STR = 'ok'
 
 '''
@@ -16,8 +16,8 @@ MSG_SUCCESS_STR = 'ok'
 
 class ResultsResponse:
     @staticmethod
-    def success_to_response(date, status=status.HTTP_200_OK, msg=MSG_SUCCESS_STR):
-        res = {'status': status, 'msg': msg, 'data': date}
+    def success_to_response(data, status=STATUS_LOGIN_CODE, msg=MSG_SUCCESS_STR):
+        res = {'status': status, 'msg': msg, 'data': data}
         return JsonResponse(res)
 
     @staticmethod

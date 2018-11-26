@@ -6,7 +6,7 @@ from apps.home.models import TFilm, TCateLog
 # rest 的核心功能 模型转化为json
 from home.home_serializers import TFilmSerializer, TCateLogSerializer
 # 的数据结构化封装程序
-from rest_common.result import ResultsResponse
+from common.result import ResultsResponse
 
 
 def index(request):
