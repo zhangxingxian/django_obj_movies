@@ -1,0 +1,74 @@
+#wrap{
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    width: auto;
+    height: 42px;
+    background-color: #343A40;
+}
+
+.title p {
+    margin-left: 15px;
+    line-height: 42px;
+    /*color: white;*/
+}
+
+.title span, .title a {
+    color: white;
+}
+
+.title_roll {
+    margin: 0px auto;
+    padding: 5px 0;
+    width: 90%;
+    background-color: blue;
+}
+
+.title_roll p {
+    margin: 0 10px;
+    background-color: aqua;
+}
+
+
+
+
+.movie{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.leftpart{
+
+    width: 67%;
+    float: left;
+}
+
+.rightpart{
+    width: 33%;
+    float: left;
+}
+
+
+.leftpart > p,
+.rightpart >p
+{
+    background-color: #343A40;
+    color: #fff;
+    position: relative;
+}
+
+.leftpart > p > span:nth-child(1),
+.rightpart >p span
+{
+    font-size: 14px;
+    padding-left: 8px;
+}
+
+.leftpart > p > span:nth-child(2) > a{
+    position: absolute;
+    right: 0;
+    padding-right: 8px;
+    color: white;
+}

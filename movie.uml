@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.SCHEMA:movie</OriginalElement>
+  <nodes>
+    <node x="158.94999999999996" y="1014.0">5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.t_res</node>
+    <node x="321.54999999999995" y="0.0">5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.t_cate_log</node>
+    <node x="1079.0592592592593" y="150.0">5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.user</node>
+    <node x="382.94999999999993" y="1060.0">5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.t_raty</node>
+    <node x="873.1981481481482" y="564.5">5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.user_groups</node>
+    <node x="1042.8092592592593" y="564.5">5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.user_user_permissions</node>
+    <node x="660.5500000000001" y="564.5">5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.auth_group_permissions</node>
+    <node x="277.0" y="473.0">5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.t_film</node>
+    <node x="181.99999999999997" y="300.0">5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.t_type</node>
+    <node x="669.0" y="1274.0">5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.django_session</node>
+    <node x="1132.5731481481482" y="0.0">5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.django_content_type</node>
+    <node x="0.0" y="300.0">5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.t_decade</node>
+    <node x="906.0" y="1274.0">5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.t_level</node>
+    <node x="453.54999999999995" y="311.5">5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.t_loc</node>
+    <node x="848.5361111111113" y="242.0">5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.auth_permission</node>
+    <node x="242.54999999999995" y="127.0">5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.t_subclass</node>
+    <node x="233.0" y="1274.0">5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.t_vipcode</node>
+    <node x="456.0" y="1274.0">5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.django_migrations</node>
+    <node x="666.0500000000001" y="265.0">5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.auth_group</node>
+    <node x="1239.8092592592593" y="507.0">5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.django_admin_log</node>
+    <node x="0.0" y="1274.0">5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.t_user</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.user_groups" target="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.auth_group">
+      <point x="-36.5" y="-50.0" />
+      <point x="909.6981481481482" y="477.0" />
+      <point x="782.3000000000001" y="477.0" />
+      <point x="38.75" y="38.5" />
+    </edge>
+    <edge source="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.t_film" target="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.t_cate_log">
+      <point x="44.60000000000002" y="-245.5" />
+      <point x="433.1" y="453.0" />
+      <point x="443.04999999999995" y="453.0" />
+      <point x="40.49999999999999" y="38.5" />
+    </edge>
+    <edge source="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.t_type" target="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.t_subclass">
+      <point x="0.0" y="-61.5" />
+      <point x="280.0" y="275.0" />
+      <point x="290.04999999999995" y="275.0" />
+      <point x="-47.5" y="61.5" />
+    </edge>
+    <edge source="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.t_film" target="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.t_loc">
+      <point x="89.19999999999999" y="-245.5" />
+      <point x="477.69999999999993" y="453.0" />
+      <point x="534.55" y="453.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.t_res" target="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.t_film">
+      <point x="0.0" y="-107.5" />
+      <point x="260.94999999999993" y="989.0" />
+      <point x="332.75" y="989.0" />
+      <point x="-55.75" y="245.5" />
+    </edge>
+    <edge source="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.auth_permission" target="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.django_content_type">
+      <point x="0.0" y="-61.5" />
+      <point x="944.0361111111113" y="125.0" />
+      <point x="1179.0731481481482" y="125.0" />
+      <point x="-46.5" y="50.0" />
+    </edge>
+    <edge source="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.t_film" target="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.t_subclass">
+      <point x="0.0" y="-245.5" />
+      <point x="388.5" y="275.0" />
+      <point x="385.04999999999995" y="275.0" />
+      <point x="47.5" y="61.5" />
+    </edge>
+    <edge source="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.django_admin_log" target="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.user">
+      <point x="-59.75" y="-107.5" />
+      <point x="1299.5592592592593" y="487.0" />
+      <point x="1239.8925925925928" y="487.0" />
+      <point x="64.33333333333337" y="153.5" />
+    </edge>
+    <edge source="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.user_user_permissions" target="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.user">
+      <point x="44.25" y="-50.0" />
+      <point x="0.0" y="153.5" />
+    </edge>
+    <edge source="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.t_film" target="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.t_decade">
+      <point x="-89.19999999999993" y="-245.5" />
+      <point x="299.30000000000007" y="453.0" />
+      <point x="81.0" y="453.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.user_user_permissions" target="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.auth_permission">
+      <point x="-44.25" y="-50.0" />
+      <point x="1087.0592592592593" y="477.0" />
+      <point x="991.7861111111113" y="477.0" />
+      <point x="47.75" y="61.5" />
+    </edge>
+    <edge source="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.django_admin_log" target="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.django_content_type">
+      <point x="59.75" y="-107.5" />
+      <point x="1419.0592592592593" y="125.0" />
+      <point x="1272.0731481481482" y="125.0" />
+      <point x="46.5" y="50.0" />
+    </edge>
+    <edge source="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.user_groups" target="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.user">
+      <point x="36.5" y="-50.0" />
+      <point x="982.6981481481482" y="487.0" />
+      <point x="1111.225925925926" y="487.0" />
+      <point x="-64.33333333333337" y="153.5" />
+    </edge>
+    <edge source="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.auth_group_permissions" target="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.auth_group">
+      <point x="-44.25" y="-50.0" />
+      <point x="-38.75" y="38.5" />
+    </edge>
+    <edge source="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.t_subclass" target="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.t_cate_log">
+      <point x="0.0" y="-61.5" />
+      <point x="337.54999999999995" y="102.0" />
+      <point x="362.04999999999995" y="102.0" />
+      <point x="-40.5" y="38.5" />
+    </edge>
+    <edge source="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.t_raty" target="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.t_film">
+      <point x="0.0" y="-61.5" />
+      <point x="470.94999999999993" y="989.0" />
+      <point x="444.25" y="989.0" />
+      <point x="55.75" y="245.5" />
+    </edge>
+    <edge source="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.auth_group_permissions" target="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.auth_permission">
+      <point x="44.25" y="-50.0" />
+      <point x="793.3000000000001" y="487.0" />
+      <point x="896.2861111111113" y="487.0" />
+      <point x="-47.75" y="61.5" />
+    </edge>
+    <edge source="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.t_film" target="5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.t_type">
+      <point x="-44.599999999999966" y="-245.5" />
+      <point x="343.9" y="443.0" />
+      <point x="280.0" y="443.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8697813121272365" x="742.6091735791085" y="810.674752688172" />
+  <SelectedNodes>
+    <node>5bf8ea86-463e-43b0-b3c5-c0cb42d1c465.TABLE:movie.t_subclass</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+
