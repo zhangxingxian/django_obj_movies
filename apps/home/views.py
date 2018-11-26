@@ -10,8 +10,11 @@ from common.result import ResultsResponse
 
 
 def index(request):
-    TFilm.objects.all()
     return render(request, 'index.html')
+
+
+def details(request):
+    return render(request, 'details.html')
 
 
 class TFilmView(APIView):

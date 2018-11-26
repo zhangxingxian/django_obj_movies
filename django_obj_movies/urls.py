@@ -23,6 +23,7 @@ urlpatterns = [
     url('admin/', admin.site.urls),
     url('^$', views.index),
     url('^home/', include('home.urls')),
+
     url('account/', include('account.urls')),
 
 ]

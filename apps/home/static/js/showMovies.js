@@ -19,7 +19,7 @@ $(function () {
                     $leftpart_allinfo.append(
                         $('<li>')
                             .append(
-                                $('<a>').attr('href', '#')
+                                $('<a>').attr('href', 'http://127.0.0.1:8000/home/details/?id='+objs[i].id)
                                     .append(
                                         $('<img>').attr('src', IMG_ADDR + objs[i].image)
                                     )
