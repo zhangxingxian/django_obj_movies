@@ -1,5 +1,5 @@
 @charset "utf-8";
-body, div, a, iframe, ul, ol, dl, dt, dd, li, dl, h1, h2, h3, h4, p, table, th, td, input,
+body, div, a, iframe, ul, ol, dl, dt, dd, li, dl, p, table, th, td, input,
 button, select, textarea {
     margin: 0;
     padding: 0;

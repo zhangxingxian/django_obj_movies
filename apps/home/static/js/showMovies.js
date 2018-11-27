@@ -2,6 +2,7 @@ $(function () {
 
     const URL_POEM = 'http://127.0.0.1:8000/home/film/';
     const IMG_ADDR = '../../static/';
+    const DETAIL_URL = 'http://127.0.0.1:8000/home/details/?id='
 
     // 1 创建xml对象
     let xhr = new XMLHttpRequest();
@@ -19,7 +20,7 @@ $(function () {
                     $leftpart_allinfo.append(
                         $('<li>')
                             .append(
-                                $('<a>').attr('href', 'http://127.0.0.1:8000/home/details/?id='+objs[i].id)
+                                $('<a>').attr('href', DETAIL_URL + objs[i].id)
                                     .append(
                                         $('<img>').attr('src', IMG_ADDR + objs[i].image)
                                     )
@@ -35,7 +36,7 @@ $(function () {
                     $rightpart_allinfo.append(
                         $('<li>')
                             .append(
-                                $('<a>').attr('href', '#')
+                                $('<a>').attr('href', DETAIL_URL + objs[i].id)
                                     .append(
                                         $('<span>').text(i + 1)
                                     )
